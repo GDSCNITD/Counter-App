@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CounterAppTestTheme {
-                Text("Hello, World")
+                Screen()
             }
         }
     }
